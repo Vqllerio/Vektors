@@ -14,7 +14,7 @@ print("5. Sudut")
 print("6. Unit")
 
 pilih = input("pilih : ")
-def pick_1()
+def pick_1():
     x1 = int(input("componen X untuk Vektor 1 : "))
     y1 = int(input("componen y untuk Vektor 1 : "))
     x2 = int(input("componen X untuk Vektor 2 : "))
@@ -22,7 +22,7 @@ def pick_1()
     A = [x1, y1]
     B = [x2, y2]
 
-def pick_2()
+def pick_2():
     x = int(input("componen X untuk Vektor 1 : "))
     y = int(input("componen y untuk Vektor 1 : "))
 
