@@ -1,6 +1,6 @@
 from penjumlahan import jumlah
-from pengurangan import 
-from panjangvektor import panjangV
+from pengurangan import pengurangan
+from panjangvektor import panjang
 print("Operasi Pada vektor")
 print("1. Penjumlahan")
 print("2. Pengurangan")
@@ -20,9 +20,10 @@ if pilih == '1':
     print(f'{A} + {B} = {C}')
 
 elif pilih == '2':
-    C = 
+    C = pengurangan(A, B)
+    print(f'{A} - {B} = {C}')
 
 elif pilih == '3':
-    C = panjangV(A, B)
+    C = panjang(A, B)
     print(f'(({A}^2 + {B}^2)^0.5 = {C}')
     
