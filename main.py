@@ -11,7 +11,7 @@ print("2. Pengurangan")
 print("3. Panjang")
 print("4. Dot Product")
 print("5. Sudut")
-pritn("6. Unit")
+print("6. Unit")
 
 pilih = input("pilih : ")
 def pick_1()
