@@ -7,7 +7,7 @@ print("Operasi Pada vektor")
 print("1. Penjumlahan")
 print("2. Pengurangan")
 print("3. Panjang")
-pritn("4. Dot Product")
+print("4. Dot Product")
 
 pilih = input("pilih : ")
 
@@ -32,5 +32,5 @@ elif pilih == '3':
 
 elif pilih == '4':
     C = dotproduct(A, B)
-    pritn(f'{A[0]} x {B[0]} + {A[1]} x {B[1]} = {C}')
+    print(f'{A[0]} x {B[0]} + {A[1]} x {B[1]} = {C}')
     
