@@ -25,6 +25,7 @@ def pick_1():
 def pick_2():
     x = int(input("componen X untuk Vektor 1 : "))
     y = int(input("componen y untuk Vektor 1 : "))
+    A = [x, y]
 
 if pilih == '1':
     pick_1()
@@ -54,4 +55,5 @@ elif pilih == '5':
 elif pilih == '6':
     pick_2()
     C = unit(x, y)
+    print(f'{A}/|A| = {C}')
     
