@@ -1,10 +1,13 @@
 from penjumlahan import jumlah
 from pengurangan import pengurangan
 from panjangvektor import panjang
+from dotprocut import dotproduct
+
 print("Operasi Pada vektor")
 print("1. Penjumlahan")
 print("2. Pengurangan")
 print("3. Panjang")
+pritn("4. Dot Product")
 
 pilih = input("pilih : ")
 
@@ -26,4 +29,8 @@ elif pilih == '2':
 elif pilih == '3':
     C = panjang(A, B)
     print(f'(({A}^2 + {B}^2)^0.5 = {C}')
+
+elif pilih == '4':
+    C = dotproduct(A, B)
+    pritn(f'{A[0]} x {B[0]} + {A[1]} x {B[1]} = {C}')
     
