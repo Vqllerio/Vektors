@@ -1,2 +1,2 @@
-def jumlah(A,B):
-    return [A[0]+B[0], A[1]+B[1]]
+def jumlah(A, B):
+    return [a + b for a, b in zip(A, B)]
